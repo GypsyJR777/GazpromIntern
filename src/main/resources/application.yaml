@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gazprom_intern?useSSL=false
+    username: gypsyjr
+    password: 12345678
+
+  jpa:
+    hibernate:
+      ddl-auto: none
